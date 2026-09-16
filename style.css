@@ -1,0 +1,62 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Контейнер навбара */
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1e293b; /* Темный современный фон */
+  padding: 16px 32px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  z-index: 1000;
+}
+
+/* Название сайта / Логотип */
+.nav-brand {
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+/* Список ссылок */
+.nav-links {
+  list-style: none; /* Убирает черные точки */
+  display: flex;     /* Выстраивает кнопки в одну строку */
+  gap: 12px;         /* Расстояние между кнопками */
+  margin: 0;
+  padding: 0;
+}
+
+/* Стили самих ссылок-кнопок */
+.nav-links a {
+  color: #94a3b8;
+  text-decoration: none; /* Убирает синее подчеркивание */
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Эффект при наведении мышкой */
+.nav-links a:hover {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Эффект при клике */
+.nav-links a:active {
+  transform: scale(0.96);
+}

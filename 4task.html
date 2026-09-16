@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage with Table and Form Styling</title>
+    <link rel="stylesheet" href="4task.css">
+</head>
+<body>
+
+    
+    <section class="section-container">
+        <!-- Page heading with an ID selector -->
+        <h1 id="table-main-title">Student Grade Report</h1>
+
+        <table class="grades-table">
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alice Smith</td>
+                    <td>Calculus</td>
+                    <td>A</td>
+                </tr>
+                
+                <tr>
+                    <td>Computer Science</td>
+                    <td>A+</td>
+                </tr>
+               
+                <tr class="highlight-row">
+                    <td>Bob Johnson</td>
+                    <td>Physics</td>
+                    <td>B+</td>
+                </tr>
+                <tr>
+                    <td>Carol White</td>
+                    <td>Humanities</td>
+                    <td>A-</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                
+                <tr>
+                    <td colspan="2"><strong>Academic Term Status</strong></td>
+                    <td><strong>Passed</strong></td>
+                </tr>
+            </tfoot>
+        </table>
+    </section>
+
+    
+    <section class="section-container">
+        
+        <form id="feedback-form" class="styled-form">
+            <h2>Course Feedback Form</h2>
+
+            
+            <div class="form-group">
+                <label for="user-name">Full Name:</label>
+                <input type="text" id="user-name" class="form-input" placeholder="Enter your full name" required>
+            </div>
+
+            
+            <div class="form-group">
+                <label for="user-email">Email Address:</label>
+                <input type="email" id="user-email" class="form-input" placeholder="name@example.com" required>
+            </div>
+
+           
+            <div class="form-group">
+                <label for="user-role">Role:</label>
+                <select id="user-role" class="form-input" required>
+                    <option value="" disabled selected>Select your role</option>
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            
+            <div class="form-group">
+                <label>Would you recommend this course?</label>
+                <div class="radio-group">
+                    <label class="radio-label">
+                        <input type="radio" name="recommend" value="yes" required> Yes
+                    </label>
+                    <label class="radio-label">
+                        <input type="radio" name="recommend" value="no"> No
+                    </label>
+                </div>
+            </div>
+
+            
+            <div class="form-group">
+                <label for="user-comments">Comments:</label>
+                <textarea id="user-comments" class="form-input" rows="4" placeholder="Write your feedback here..."></textarea>
+            </div>
+
+            
+            <button type="submit" id="submit-btn" class="btn-primary">Submit Feedback</button>
+        </form>
+    </section>
+
+</body>
+</html>
