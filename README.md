@@ -1,6 +1,6 @@
-# Web Development Academic Assignments Portfolio
+# Assignment Description
 
-A comprehensive portfolio showcasing fundamental web development assignments focusing on semantic HTML5, modern CSS styling, layout architectures (Flexbox, standard Floats, CSS Grid), and interactive form elements.
+A  web development assignments focusing on semantic HTML5, modern CSS styling, layout architectures (Flexbox, standard Floats, CSS Grid), and interactive form elements.
 
 ---
 
@@ -39,8 +39,10 @@ A comprehensive portfolio showcasing fundamental web development assignments foc
 
 ---
 
-## 🚀 How to Run Locally
+
 
 👤 Author
 Name: Albina Onlasyn
 Group: SE-2527
+
+FIGMA LINK: https://www.figma.com/design/ZSEGJOKAoXiuGbunrSf2l4/Untitled?node-id=0-1&t=4fAuG2YKrEkiPCO2-1 
